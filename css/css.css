@@ -3,7 +3,7 @@
 body {
     background: transparent url('../image/fond.jpg') 0% 0% no-repeat padding-box;
     opacity: 1;
-    background-size: cover;
+    background-size:cover;
     margin: 0;
     }
 
@@ -13,11 +13,6 @@ header {
     flex-direction: row;
     justify-content: center;
     align-content: center;
-}
-
-header img {
-    background: transparent url('img/Capture.png') 0% 0% no-repeat padding-box;
-    opacity: 1;
 }
 
 section {
@@ -35,6 +30,7 @@ section img {
 section p {
     text-align: center;
     font: normal normal normal 51px/60px Enchanted Land;
+    src: url('fonts/Enchanted Land.otf');
     letter-spacing: 0px;
     color: #000000;
     opacity: 1;
