@@ -10,6 +10,10 @@ bottom: 0;
 z-index: -1;
 }
 
+nav {
+text-align: center;
+}
+
 .bouton {
     line-height: 2.5;
     padding: 0 20px;
