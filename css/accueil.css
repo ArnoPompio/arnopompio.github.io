@@ -10,8 +10,7 @@ bottom: 0;
 z-index: -1;
 }
 
-.styled {
-    border: 0;
+.bouton {
     line-height: 2.5;
     padding: 0 20px;
     border: none;
@@ -22,15 +21,14 @@ z-index: -1;
     text-align: center;
     color: #fff;
     text-shadow: 1px 1px 1px #000;
-    display: ruby-base;
-    margin: auto;
+
 }
 
-.styled:hover {
+.bouton:hover {
     color: #0064fe;
 }
 
-.styled:active {
+.bouton:active {
     color: #f90002;
 }
 
