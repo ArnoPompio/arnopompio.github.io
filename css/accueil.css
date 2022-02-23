@@ -36,16 +36,11 @@ text-align: center;
     color: #f90002;
 }
 
-h1, h2{
-
+h1, h2, footer {
 color: white;
-
 font-family: Trebuchet MS;
-
 font-weight: bold;
-
 text-align: center;
-
 text-shadow: black 2px 0 10px;
 
 }
@@ -55,6 +50,6 @@ font-size: 6rem;
 margin-top: 30vh;
 }
 
-h2 { font-size: 3rem; 
+h2 { 
+font-size: 3rem; 
 }
-
