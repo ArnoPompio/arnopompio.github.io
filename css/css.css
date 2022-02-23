@@ -10,6 +10,30 @@ bottom: 0;
 z-index: -1;
 }
 
+.styled {
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    border: none;
+    background: none;
+    font-family: Trebuchet MS;
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    display: ruby-base;
+    margin: auto;
+}
+
+.styled:hover {
+    color: #0064fe;
+}
+
+.styled:active {
+    color: #f90002;
+}
+
 h1, h2{
 
 color: white;
