@@ -57,8 +57,8 @@ font-size: 3rem;
 img {
   border: 0.75rem solid white;
   width: 50vh;
-  display-internal: table-footer-group;
-  box-shadow: black 2px 0 10px;
+  display-internal: table;
+  box-shadow: 0 0 2px 1px black;
   font-family: Trebuchet MS;
   font-weight: bold;
   font-size: 2rem;
@@ -77,4 +77,5 @@ img:active {
 
 section {
 text-align: center;
+margin-top: 32.5vh;
 }
