@@ -66,6 +66,12 @@ img {
 }
 
 img:hover {
+  border: 0.75rem solid #0064fe;
+  box-shadow: 0 0 2px 1px black;
+}
+
+img:active {
+  border: 0.75rem solid #f90002;
   box-shadow: 0 0 2px 1px black;
 }
 
