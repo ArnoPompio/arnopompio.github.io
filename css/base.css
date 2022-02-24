@@ -55,11 +55,14 @@ font-size: 3rem;
 }
 
 img {
-  border: 1px solid #ddd;
-  border-radius: 4px;
-  padding: 5px;
+  border: 0.75rem solid white;
   width: 50vh;
-display-internal: table-footer-group;
+  display-internal: table-footer-group;
+  box-shadow: black 2px 0 10px;
+  font-family: Trebuchet MS;
+  font-weight: bold;
+  font-size: 2rem;
+  text-align: center;
 }
 
 img:hover {
