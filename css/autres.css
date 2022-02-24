@@ -1,3 +1,15 @@
+#background-video {
+height: 50vh;
+width: 100vw;
+object-fit: cover;
+position: fixed;
+left: 0;
+right: 0;
+top: 0;
+bottom: 0;
+z-index: -1;
+}
+
 nav {
 text-align: center;
 }
@@ -35,7 +47,7 @@ text-shadow: black 2px 0 10px;
 
 h1 {
 font-size: 6rem;
-margin-top: 30vh;
+margin-top: 10vh;
 }
 
 h2 { 
