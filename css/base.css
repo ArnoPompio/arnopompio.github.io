@@ -55,7 +55,7 @@ font-size: 3rem;
 }
 
 img {
-  border: 0.75rem solid white;
+  border: 0.5rem solid white;
   width: 40vw;
   display-internal: table;
   box-shadow: black 2px 0 10px;
@@ -66,12 +66,12 @@ img {
 }
 
 img:hover {
-  border: 0.75rem solid #0064fe;
+  border: 0.5rem solid #0064fe;
   box-shadow: black 2px 0 10px;
 }
 
 img:active {
-  border: 0.75rem solid #f90002;
+  border: 0.5rem solid #f90002;
   box-shadow: black 2px 0 10px;
 }
 
