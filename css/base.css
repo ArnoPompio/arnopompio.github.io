@@ -58,7 +58,7 @@ img {
   border: 0.75rem solid white;
   width: 25vw;
   display-internal: table;
-  box-shadow: 0 0 2px 1px black;
+  box-shadow: black 2px 0 10px;
   font-family: Trebuchet MS;
   font-weight: bold;
   font-size: 2rem;
@@ -67,12 +67,12 @@ img {
 
 img:hover {
   border: 0.75rem solid #0064fe;
-  box-shadow: 0 0 2px 1px black;
+  box-shadow: black 2px 0 10px;
 }
 
 img:active {
   border: 0.75rem solid #f90002;
-  box-shadow: 0 0 2px 1px black;
+  box-shadow: black 2px 0 10px;
 }
 
 section {
