@@ -38,7 +38,6 @@ margin-top: 1vh;
 
 .bouton:active {
     color: white;
-    text-decoration: underline;
 }
 
 .boutoncontact {
@@ -67,7 +66,7 @@ margin-top: 1vh;
     color: white;
 }
 
-h1, h2{
+h1, h2, h3{
 color: white;
 font-family: Trebuchet MS;
 font-weight: bold;
@@ -85,28 +84,49 @@ h2 {
 font-size: 3rem; 
 }
 
+h3 {
+font-size: 6rem;
+margin-top: 15vh;
+}
+
 img {
+  border-radius: 15px;
   border: 0.5rem solid white;
   width: 40vw;
-  display-internal: table;
   box-shadow: black 2px 0 10px;
   font-family: Trebuchet MS;
   font-weight: bold;
   font-size: 2rem;
-  text-align: center;
 }
 
 img:hover {
   border: 0.5rem solid #0064fe;
-  box-shadow: black 2px 0 10px;
 }
 
 img:active {
-  border: 0.5rem solid #f90002;
-  box-shadow: black 2px 0 10px;
+  border: 0.5rem solid white;
 }
 
-section {
+.table {
+  display: table;
+  border-collapse: separate;
+  margin: 0 auto;
+  margin-top: 20vh;
+}
+
+.row { 
+display: table-row; 
 text-align: center;
-margin-top: 32.5vh;
+}
+
+.cell {
+  display: table-cell;
+}
+
+footer {
+color: black;
+font-family: Trebuchet MS;
+font-weight: bold;
+text-align: center;
+text-shadow: black 2px 0 10px;
 }
