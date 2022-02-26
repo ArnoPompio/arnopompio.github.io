@@ -32,8 +32,9 @@ margin-top: 1vh;
 }
 
 .bouton:hover {
-    color: #0064fe;
+    color: #20448C;
     text-decoration: underline;
+    transition: 0.3s ease-out;
 }
 
 .bouton:active {
@@ -46,7 +47,7 @@ margin-top: 1vh;
     border: none;
     border-radius: 5px;
     box-shadow: 1px 1px 1px #000;
-    background: #0064fe;
+    background: #20448C;
     font-family: Trebuchet MS;
     font-weight: bold;
     font-size: 2rem;
@@ -60,6 +61,7 @@ margin-top: 1vh;
 .boutoncontact:hover {
     color: black;
     text-shadow: none;
+    transition: 0.3s ease-out;
 }
 
 .boutoncontact:active {
@@ -82,28 +84,33 @@ margin-top: 30vh;
 
 h2 { 
 font-size: 3rem; 
+margin-bottom: 30vh;
 }
+
 
 h3 {
 font-size: 6rem;
 margin-top: 15vh;
+margin-bottom: 20vh;
 }
 
-img {
-  border-radius: 15px;
+.photos {
   border: 0.5rem solid white;
   width: 40vw;
+  max-heigth: 25%;
   box-shadow: black 2px 0 10px;
   font-family: Trebuchet MS;
   font-weight: bold;
   font-size: 2rem;
+  padding:5px 5px;
 }
 
-img:hover {
-  border: 0.5rem solid #0064fe;
+.photos:hover {
+  border: 0.5rem solid #20448C;
+  transition: 0.3s ease-out;
 }
 
-img:active {
+.photos:active {
   border: 0.5rem solid white;
 }
 
@@ -116,10 +123,60 @@ img:active {
 }
 
 .row { 
-display: table-row; 
-text-align: center;
+ display: table-row; 
+ text-align: center;
 }
 
 .cell {
   display: table-cell;
 }
+
+* {
+ padding: 0;
+ margin: 0;
+ box-sizing: border-box; 
+ font-family: Trebuchet MS;
+}
+
+.footer-container {
+ background-color: #20448C;
+ padding: 4rem 0 4rem 0;
+ box-shadow: black 2px 0 10px;
+}
+
+.footer {
+	width: 80%
+	height: 40vh;
+	background-color: #20448C;
+	color: white;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin: 0 auto;
+}
+
+.footer-heading {
+	display: flex;
+	flex-direction: column;
+	margin-right: 4rem;
+}
+
+.footer-heading h2 {
+	margin-bottom: 2rem;
+	font-size: 2rem;
+	font-weight: none;
+	text-shadow: none;
+}
+
+.footer-heading a {
+	color: white;
+	text-decoration: none;
+	margin-bottom: 0.5rem;
+	text-align: center;
+}
+
+.footer-heading a:hover {
+	color: black;
+	transition: 0.3s ease-out;
+}
+
