@@ -11,7 +11,9 @@ z-index: -1;
 }
 
 nav {
-text-align: center;
+text-align: right;
+margin-right: 1vw;
+margin-top: 1vh;
 }
 
 .bouton {
@@ -25,15 +27,44 @@ text-align: center;
     text-align: center;
     color: #fff;
     text-shadow: 1px 1px 1px #000;
+    text-decoration: none;
 
 }
 
 .bouton:hover {
     color: #0064fe;
+    text-decoration: underline;
 }
 
 .bouton:active {
-    color: #f90002;
+    color: white;
+    text-decoration: underline;
+}
+
+.boutoncontact {
+    line-height: 2.5;
+    padding: 15px 15px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px #000;
+    background: #0064fe;
+    font-family: Trebuchet MS;
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    text-decoration: none;
+
+}
+
+.boutoncontact:hover {
+    color: black;
+    text-shadow: none;
+}
+
+.boutoncontact:active {
+    color: white;
 }
 
 h1, h2{
