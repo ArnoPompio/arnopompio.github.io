@@ -194,6 +194,10 @@ padding: 15px;
   color: black;
 }
 
+.iconelieu {
+  text-decoration: none;
+}
+
 .collapsible:after {
   content: '\02795';
   font-size: 13px;
