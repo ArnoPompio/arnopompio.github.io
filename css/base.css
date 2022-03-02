@@ -37,9 +37,7 @@ margin-top: 1vh;
     transition: 0.3s ease-out;
 }
 
-.bouton:active {
-    color: white;
-}
+.bouton:active { color: white; }
 
 .boutoncontact {
     line-height: 2.5;
@@ -64,9 +62,7 @@ margin-top: 1vh;
     transition: 0.3s ease-out;
 }
 
-.boutoncontact:active {
-    color: white;
-}
+.boutoncontact:active { color: white; }
 
 h1, h2, h3{
 color: white;
@@ -91,7 +87,7 @@ margin-bottom: 40vh;
 h3 {
 font-size: 6rem;
 margin-top: 20vh;
-margin-bottom: 30vh;
+margin-bottom: 20vh;
 }
 
 .photos {
@@ -110,9 +106,7 @@ margin-bottom: 30vh;
   transition: 0.3s ease-out;
 }
 
-.photos:active {
-  border: 0.5rem solid white;
-}
+.photos:active { border: 0.5rem solid white; }
 
 .table {
   display: table;
@@ -120,6 +114,7 @@ margin-bottom: 30vh;
   margin: 0 auto;
   margin-top: 20vh;
   margin-bottom: 20vh;
+  border-spacing: 10px;
 }
 
 .row { 
@@ -127,8 +122,8 @@ margin-bottom: 30vh;
  text-align: center;
 }
 
-.cell {
-  display: table-cell;
+.cell { 
+ display: table-cell; 
 }
 
 * {
@@ -180,3 +175,47 @@ margin-bottom: 30vh;
 	transition: 0.3s ease-out;
 }
 
+ .collapsible {
+  background-color: #eee;
+  color: black;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: center;
+  outline: none;
+  font-size: 15px;
+}
+
+.active, .collapsible:hover {
+  background-color: #ccc;
+}
+
+.contenu {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+.contenu p {
+padding: 15px;
+}
+
+.collapsible:after {
+  content: '\02795';
+  font-size: 13px;
+  color: white;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2796";
+}
+
+.calendrier {
+  margin-top: 20vh;
+  margin-bottom: 20vh;
+}

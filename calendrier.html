@@ -23,6 +23,62 @@
 <h3>CALENDRIER</h3>
 </div>
 
+<div class="calendrier">
+	<button type="button" class="collapsible">Matchs N3 Hommes</button>
+		<div class="contenu">
+			<p>sam. 12/03/2022 à 20:00 - VC GREENYARD MAASEIK B / RIBAMBELLE MARCHIN - Steengoed Arena, Maaseik</p>
+			<p>sam. 02/04/2022 à 20:30 - RIBAMBELLE MARCHIN / NAMUR VOLLEY - Hall Omnisport, Marchin</p>
+			<p>sam. 09/04/2022 à 20:00 - WARA GENK A / RIBAMBELLE MARCHIN - Sporthal Eurassur-hal, Genk</p>
+			<p>sam. 16/04/2022 à 20:30 - RIBAMBELLE MARCHIN / GOLAZO AVERBODE A - Hall Omnisports Marchin</p>
+			<p>sam. 23/04/2022 à 20:30 - RIBAMBELLE MARCHIN / HERSTAL VBC - Hall Omnisport, Marchin</p>
+		</div>	
+
+	<button type="button" class="collapsible">Matchs P1 Dames</button>
+		<div class="contenu">
+			<p>sam. 12/03/2022 à 17:15 - Marchin 1 / Calaminia 1 - Hall Omnisports Marchin</p>
+			<p>ven. 18/03/2022 à 21:15 - Raeren 1 / Marchin 1 - Hall Omnisport</p>
+			<p>sam. 26/03/2022 à 17:15 - Marchin 1 / Raeren 1 - Hall Omnisports Marchin</p>
+			<p>ven. 01/04/2022 à 21:15 - Neupré 1 / Marchin 1 - Hall Omnisport</p>
+			<p>sam. 09/04/2022 à 17:15 - Marchin 1 / Vollamac 1 - Hall Omnisports Marchin</p>
+			<p>sam. 23/04/2022 à 16:45 - Loncin 1 / Marchin 1 - Hall Omnisports Henri Germis</p>  
+		</div>
+
+	<button type="button" class="collapsible">Matchs P3 Hommes</button>
+
+		<div class="contenu">
+			<p>ven. 11/03/2022 à 21:15 - Marchin 2  / Reno Solutions Esneux 4	- Hall Omnisports Marchin</p>
+			<p>sam. 19/03/2022 à 16:30 - Sart Tilman 2 / Marchin 2 - Hall Omnisport</p>
+			<p>ven. 25/03/2022 à 21:15 - Neupré 2 / Marchin 2 - Hall Omnisport</p>
+			<p>ven. 08/04/2022 à 21:15 - Marchin 2 / Reno Solutions Esneux 3	- Hall Omnisports Marchin</p>
+			<p>dim. 24/04/2022 à 15:00 - Vollamac 2 / Marchin 2 - Hall Omnisport</p>
+		</div>
+
+	<button type="button" class="collapsible">Matchs P3 Dames</button>
+		<div class="contenu">
+			<p>ven. 11/03/2022 à 21:15 - Marchin 2 / Reno-Solutions Esneux 3 - Hall Omnisports Marchin</p>
+			<p>dim. 20/03/2022 à 14:30 - Aywaille 1 / Marchin 2 - Hall Omnisports d'Aywaille</p>
+			<p>sam. 02/04/2022 à 21:00 - Remouchamps 1 / Marchin 2 - Ecole Saint-Joseph</p>
+			<p>ven. 08/04/2022 à 21:15 - Marchin 2 / Renaissance 1 - Hall Omnisports Marchin</p>
+			<p>dim. 24/04/2022 à 15:00 - Vollamac 2 / Marchin 2 - Hall Omnisport</p>
+		</div>
+	</div>
+<script>
+	var coll = document.getElementsByClassName("collapsible");
+	var i;
+	
+	for (i = 0; i < coll.length; i++) {
+	  coll[i].addEventListener("click", function() {
+		this.classList.toggle("active");
+		var content = this.nextElementSibling;
+		if (content.style.maxHeight){
+		  content.style.maxHeight = null;
+		} else {
+		  content.style.maxHeight = content.scrollHeight + "px";
+		}
+	  });
+	}
+</script>
+
 <body>
 	<div class="footer-container">
 		<div class="footer">
