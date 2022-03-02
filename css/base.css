@@ -1,3 +1,10 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; 
+  font-family: Trebuchet MS;
+ }
+
 #background-video {
 height: 100vh;
 width: 100vw;
@@ -83,7 +90,6 @@ font-size: 3rem;
 margin-bottom: 40vh;
 }
 
-
 h3 {
 font-size: 6rem;
 margin-top: 20vh;
@@ -93,7 +99,6 @@ margin-bottom: 20vh;
 .photos {
   border: 0.5rem solid white;
   width: 40vw;
-  max-heigth: 25%;
   box-shadow: black 2px 0 10px;
   font-family: Trebuchet MS;
   font-weight: bold;
@@ -126,69 +131,33 @@ margin-bottom: 20vh;
  display: table-cell; 
 }
 
-* {
- padding: 0;
- margin: 0;
- box-sizing: border-box; 
- font-family: Trebuchet MS;
-}
-
-.footer-container {
- background-color: #20448C;
- padding: 4rem 0 4rem 0;
- box-shadow: black 2px 0 10px;
-}
-
-.footer {
-	width: 80%
-	height: 40vh;
-	background-color: #20448C;
-	color: white;
-	display: flex;
-	justify-content: center;
-	flex-wrap: wrap;
-	margin: 0 auto;
-}
-
-.footer-heading {
-	display: flex;
-	flex-direction: column;
-	margin-right: 4rem;
-}
-
-.footer-heading h2 {
-	margin-bottom: 2rem;
-	font-size: 2rem;
-	font-weight: none;
-	text-shadow: none;
-}
-
-.footer-heading a {
-	color: white;
-	text-decoration: none;
-	margin-bottom: 0.5rem;
-	text-align: center;
-}
-
-.footer-heading a:hover {
-	color: black;
-	transition: 0.3s ease-out;
+.calendrier {
+  margin-bottom: 20vh;
 }
 
  .collapsible {
-  background-color: #eee;
+  background-color: white;
   color: black;
   cursor: pointer;
   padding: 18px;
   width: 100%;
-  border: none;
   text-align: center;
   outline: none;
   font-size: 15px;
+  border: 1px solid #ddd;
+}
+
+.bordure {
+  background-color: white;
+  width: 100%;
+  border: none;
+  padding: 5px;
 }
 
 .active, .collapsible:hover {
-  background-color: #ccc;
+  background-color: #20448C;
+  color: white;
+  border: none;
 }
 
 .contenu {
@@ -203,19 +172,77 @@ margin-bottom: 20vh;
 padding: 15px;
 }
 
+.tableau {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.tableau td, #customers th {
+  border: 2px solid #ddd;
+  padding: 10px;
+}
+
+.tableau tr:nth-child(even){background-color: #f2f2f2;}
+
+.tableau tr:hover {background-color: #ddd;}
+
+.tableau th {
+  padding-top: 6px;
+  padding-bottom: 6px;
+  text-align: center;
+  background-color: white;
+  color: black;
+}
+
 .collapsible:after {
   content: '\02795';
   font-size: 13px;
   color: white;
   float: right;
-  margin-left: 5px;
 }
 
 .active:after {
   content: "\2796";
 }
 
-.calendrier {
-  margin-top: 20vh;
-  margin-bottom: 20vh;
-}
+.footer-container {
+  background-color: #20448C;
+  padding: 4rem 0 4rem 0;
+  box-shadow: black 2px 0 10px;
+ }
+ 
+ .footer {
+   width: 80%;
+   height: 40vh;
+   background-color: #20448C;
+   color: white;
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+   margin: 0 auto;
+ }
+ 
+ .footer-heading {
+   display: flex;
+   flex-direction: column;
+   margin-right: 4rem;
+ }
+ 
+ .footer-heading h2 {
+   margin-bottom: 2rem;
+   font-size: 2rem;
+   font-weight: none;
+   text-shadow: none;
+ }
+ 
+ .footer-heading a {
+   color: white;
+   text-decoration: none;
+   margin-bottom: 0.5rem;
+   text-align: center;
+ }
+ 
+ .footer-heading a:hover {
+   color: black;
+   transition: 0.3s ease-out;
+ }
