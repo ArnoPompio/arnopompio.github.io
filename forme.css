@@ -223,6 +223,27 @@ nav {
   content: "\2796";
 }
 
+/*CONTACT*/
+
+.mail {
+	color: white;
+	text-shadow: 1px 1px 1px #000; 
+    text-decoration: none;	
+}
+
+.mail:hover {
+	color: black;
+	text-shadow: none; 
+    text-decoration: underline;	
+	transition: 0.3s ease-out;	
+   	
+}
+
+.mail:active {
+	color: white;
+	text-shadow: 1px 1px 1px #000; 	
+}
+
 /*FOOTER*/
 
 .footer-container {
